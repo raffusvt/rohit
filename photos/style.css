@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-color: grey;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 1px 15px 50px;
+}
+.rohit{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px 5px rgb(48, 41, 43);
+    border-radius: 100%;
+}
+.name{
+    text-align: center;
+    color: rgb(44, 42, 42);
+    text-transform: uppercase;
+    font-size: x-large;
+    margin-top: 20px;
+    font-weight: 500;
+    font-style: oblique;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(48, 41, 43);
+}
+.address{
+    text-align: start;
+    color: rgba(241, 239, 239, 0.726);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.insta{
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+
+
+
+@media (min-width: 768px){
+    div{
+        margin: 30px 200px;
+        padding: 1px 15px 50px;
+    }
+
+}
+
+
+@media (min-width: 1280px){
+    div{
+        margin: 30px 400px;
+        padding: 1px 15px 50px;
+    }
+    .rohit{
+        height: 300px;
+        width: 350px;
+    }
+    .name{
+        font-size: xxx-large;
+        margin-top: 40px;
+        font-weight: 900;
+    }
+    .address,a{
+        font-weight: 500;
+        font-size: x-large;
+    }
+    .insta{
+        height: 50px;
+        width: 50px;
+        margin-left: 5%;
+    }
+}
